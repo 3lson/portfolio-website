@@ -1,0 +1,127 @@
+/* Reset box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Darker Gray for text consistency */
+    background-color: #f4f4f4; /* Light gray consistent with other pages */
+}
+
+/* Header styling */
+header {
+    background: #282c34; /* Same Deep Teal as the previous header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Social Media Icons */
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #61dafb; /* Light Blue hover to match nav underline */
+}
+
+/* Landing section (home page) */
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #61dafb; /* Light blue to match other buttons */
+    margin-bottom: 30px;
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Circle buttons */
+.circle-button {
+    background: #4CAF50; /* Soft Green (resume/contact buttons) */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.circle-button:hover {
+    background: #388E3C; /* Darker green on hover */
+}
+
+/* Fixed footer styling */
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #282c34; /* Same deep background as header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Iframe styling (resume page) */
+iframe {
+    border: none;
+}
+
+/* Download button */
+.download-button {
+    padding: 10px 20px;
+    background: #61dafb; /* Light Blue to match the hover color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.download-button:hover {
+    background: #2196F3; /* Darker Blue on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .circle-button {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
