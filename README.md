@@ -1,5 +1,7 @@
 # Personal Portfolio Website on AWS
 
+**This website is now archived as I have migrated it to github.io** [SEE HERE]()
+
 This repository contains a step by step guide for a personal portfolio website, which is hosted on Amazon Web Services (AWS) using S3 for static website hosting and CloudFront for content delivery. Below are the steps I followed to set up the website.
 
 ## Table of Contents
